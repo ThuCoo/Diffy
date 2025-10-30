@@ -1,0 +1,1 @@
+This is just a simple static HTML website so that I can post my arts and commissions' information.

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+@theme {
+  --font-*: initial;
+  --font-sans: "Mansalva", sans-serif;
+
+  --color-diffy-400: #3D312A;
+  --color-diffy-300: #5D4E40;
+  --color-diffy-200: #E8AA3E;
+  --color-diffy-100: #EBE1D4;
+};
