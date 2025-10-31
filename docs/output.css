@@ -315,8 +315,8 @@
   .text-\[min\(12vw\,1\.5rem\)\] {
     font-size: min(12vw, 1.5rem);
   }
-  .text-\[min\(15vw\,3\.75rem\)\] {
-    font-size: min(15vw, 3.75rem);
+  .text-\[min\(15vw\,3rem\)\] {
+    font-size: min(15vw, 3rem);
   }
   .leading-relaxed {
     --tw-leading: var(--leading-relaxed);
