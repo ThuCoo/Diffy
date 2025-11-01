@@ -12,7 +12,7 @@
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
-    --font-sans: "Mansalva", sans-serif;
+    --font-sans: .mitr-regular;
     --color-diffy-400: #3D312A;
     --color-diffy-200: #E8AA3E;
     --color-diffy-100: #EBE1D4;
@@ -438,7 +438,12 @@
     }
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+.mitr-regular {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 @property --tw-space-y-reverse {
   syntax: "*";
   inherits: false;

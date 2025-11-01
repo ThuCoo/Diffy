@@ -1,10 +1,16 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+.mitr-regular {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @theme {
   --font-*: initial;
-  --font-sans: "Mansalva", sans-serif;
+  --font-sans: .mitr-regular;
 
   --color-diffy-400: #3D312A;
   --color-diffy-300: #5D4E40;
