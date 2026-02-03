@@ -71,7 +71,7 @@ export default function Contacts() {
           ngày.
         </p>
       </div>
-      <Accordion className="max-w-2xl w-full" defaultValue={[]}>
+      <Accordion type="multiple" className="max-w-2xl w-full" defaultValue={[]}>
         <AccordionItem value="Fandoms">
           <AccordionTrigger>Fandoms và ships</AccordionTrigger>
           <AccordionContent>
