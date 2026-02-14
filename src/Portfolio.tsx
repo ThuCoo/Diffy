@@ -9,10 +9,13 @@ import Autoplay from "embla-carousel-autoplay";
 
 export default function Portfolio() {
   // Dynamically import all images from the img folder and subfolders
-  const imageModules = import.meta.glob("./img/**/*.{png,jpg,jpeg,gif,svg}", {
-    eager: true,
-    import: "default",
-  }) as Record<string, string>;
+  const imageModules = import.meta.glob(
+    "./img/**/*.{png,jpg,jpeg,gif,svg,webp}",
+    {
+      eager: true,
+      import: "default",
+    },
+  ) as Record<string, string>;
 
   // Group images by folder
   const imagesByFolder: Record<
